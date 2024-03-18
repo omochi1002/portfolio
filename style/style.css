@@ -1,0 +1,141 @@
+/* ********************
+        PC、SP共通
+*********************** */
+/* 全体共通スタイル */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+li , p {
+  font-size: 18px;
+}
+
+/* ********************
+        PCスタイル
+*********************** */
+/* ---------- 全体 ---------- */
+body {
+  max-width: 1200px;
+}
+
+/* ---------- ヘッダー ---------- */
+/* ナビゲーションのスタイル */
+#nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.home {
+  margin-left: 50px;
+  border: solid 1px #000;
+  padding: 5px 20px;
+}
+
+.nav-section {
+  margin-right: 35px;
+}
+
+.nav-about {
+  padding-right: 30px;
+}
+
+/* ナビゲーションリンクの装飾設定 */
+a {
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: #000;
+}
+
+/* ---------- メイン画像 ---------- */
+.main-img {
+  width: 100%;
+}
+
+/* ---------- About ---------- */
+.about-content {
+  display: flex;
+  justify-content: center;
+}
+
+.human-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top:30px
+}
+
+.about-item {
+  margin-left: 20px;
+}
+
+/* ---------- Works ---------- */
+.works-content {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:30px auto;
+}
+
+.works-items{
+  width: 30%;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.works-items > img {
+  width: 100%;
+}
+
+.center-item {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+/* ---------- フッター ---------- */
+footer {
+  text-align: center;
+}
+
+
+/* ********************
+        SPスタイル
+*********************** */
+@media screen and (max-width: 767px) {
+  .works-items {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;;
+  }
+
+}
+
